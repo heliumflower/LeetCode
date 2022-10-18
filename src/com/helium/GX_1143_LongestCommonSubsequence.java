@@ -8,7 +8,7 @@ import java.util.Arrays;
  * @author gaoxu
  * @date 2022/10/17 23:02
  */
-public class LongestCommonSubsequence {
+public class GX_1143_LongestCommonSubsequence {
 
     // text1 = "abcde", text2 = "ace"
 
@@ -16,7 +16,7 @@ public class LongestCommonSubsequence {
     //"jmjkbkjkv"
 
     public static void main(String[] args) {
-        LongestCommonSubsequence l = new LongestCommonSubsequence();
+        GX_1143_LongestCommonSubsequence l = new GX_1143_LongestCommonSubsequence();
         // System.out.println(l.longestCommonSubsequence("bsbininm", "jmjkbkjkv"));
         System.out.println(l.longestCommonSubsequence("abcde", "ace"));
     }
